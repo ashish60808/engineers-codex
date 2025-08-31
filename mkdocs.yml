@@ -1,0 +1,82 @@
+site_name: The Engineer's Codex
+site_description: A curated collection of the laws, rules, principles, and patterns of Software Development.
+site_author: Ashish Kumar
+site_url: https://ashishsre.netlify.io/engineers-codex
+theme:
+  name: material
+  custom_dir: docs/overrides/
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.tracking
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.code.annotate
+    - content.code.highlight
+  palette:
+    - scheme: light
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to dark mode
+    - scheme: dark
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+
+  language: en
+  font:
+    text: Inter
+    code: Inter Regular
+repo_name: ashish60808/engineers-codex
+repo_url: https://github.com/ashish60808/engineers-codex
+edit_uri: blob/main/docs/
+
+copyright: >
+  Copyright@2025 by Ashish Kumar
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+
+# Plugins
+plugins:
+  - search
+
+# Strict navigation ensures links in nav must exist
+strict: true
+
+
+extra_css:
+  - stylesheets/colors.css
+  - stylesheets/globals.css
+  - stylesheets/typography.css
+  - stylesheets/themes.css
+  - stylesheets/footer.css
+  - stylesheets/welcome.css
+#social:
+#    - icon: fontawesome/brands/instagram
+#      link: https://www.instagram.com/ashish60808/
+#    - icon: fontawesome/brands/linkedin
+#      link: https://www.linkedin.com/in/ashishkumarsre
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/ashish60808
+#    - icon: fontawesome/brands/medium
+#      link: https://medium.com/@ashish60808
+#    - icon: fontawesome/solid/paper-plane
+#      link: mailto:<ashish60808@gmail.com>
