@@ -14,7 +14,7 @@ hide:
     
     John Dutton Conant Little, is an Institute Professor at the Massachusetts Institute of Technology, best known for his result in Operations Research, Littles Law. Littles law is truly amazing in its simplicity and can be used to describe the most complex of systems including resources within those systems.
     
-    [//]: # (![Queuing System]&#40;{{ "/assets/img/queuing_system.png" | absolute_url }}&#41;)
+    ![Queuing System]({{ "/media/queuing_system.png" | absolute_url }})
     
     Lets take for example the system described above. The notations used include:
     
@@ -50,7 +50,7 @@ hide:
     
     Lets take a look at a few examples and apply Littles Law to a real world system:
     
-    [//]: # (![Queuing Systems In Real Life]&#40;{{ "/assets/img/line_at_starbucks.png" | absolute_url }}&#41;)
+    ![Queuing Systems In Real Life]({{ "/media/line_at_starbucks.png" | absolute_url }})
     
     * **Example - Determine Concurrent Users Using Littles Law:** A system at peak processes 8000 Transactions/Hour with an average response time of ~5s per transaction. The average Think Time per user is ~30s. What is the number of concurrent users on the system?
       * Throughput or X = 8000/3600 = 2.22 TPS
